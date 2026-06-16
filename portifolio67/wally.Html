@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfólio - Ian Andrade</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Georgia, serif;
+}
+
+body{
+    background:#15153d;
+    color:white;
+}
+
+header{
+    padding:30px;
+    border-bottom:2px solid white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.menu{
+    display:flex;
+    gap:20px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:white;
+    border:1px solid white;
+    padding:10px 30px;
+    border-radius:5px;
+}
+
+.perfil{
+    text-align:center;
+}
+
+.perfil img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:3px solid #2f2fff;
+}
+
+main{
+    padding:40px;
+}
+
+.container{
+    background:#4b42b8;
+    padding:30px;
+    border-radius:10px;
+}
+
+.topo{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#111133;
+    padding:20px;
+    border-radius:8px;
+    border:1px solid white;
+}
+
+.sobre{
+    flex:2;
+}
+
+.habilidades{
+    flex:1;
+}
+
+.projetos{
+    flex:1;
+}
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(2,120px);
+    gap:15px;
+    margin-top:25px;
+}
+
+.galeria img{
+    width:120px;
+    height:90px;
+    object-fit:cover;
+    border-radius:5px;
+}
+
+.tecnologias{
+    margin-top:30px;
+    background:#1b1b4d;
+    border:1px solid white;
+    border-radius:25px;
+    padding:20px;
+    text-align:center;
+}
+
+.tecnologias img{
+    width:50px;
+    margin:10px;
+}
+
+footer{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    background:#4b42b8;
+}
+
+.contato{
+    padding:20px;
+    text-align:center;
+    border-right:1px solid white;
+}
+
+.contato:last-child{
+    border:none;
+}
+
+@media(max-width:768px){
+
+.topo{
+    flex-direction:column;
+}
+
+footer{
+    grid-template-columns:1fr;
+}
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<nav>
+
+<div class="menu">
+<a href="#sobre">Sobre</a>
+<a href="#habilidades">Habilidades</a>
+<a href="#projetos">Projetos</a>
+<a href="#contato">Contato</a>
+</div>
+
+<div class="perfil">
+<img src="Ellipse 2.png" alt="Ian Andrade">
+<h3>Ian Andrade</h3>
+</div>
+
+</nav>
+
+</header>
+
+<main>
+
+<div class="container">
+
+<div class="topo">
+
+<div class="card sobre" id="sobre">
+<h2>Sobre Mim</h2>
+<br>
+<p>
+Olá! Meu nome é Ian e sou estudante do Mediotec SENAC,
+onde curso Programação e Desenvolvimento de Sistemas.
+Atualmente estou no 2º ano e participo da criação de
+protótipos tecnológicos, desenvolvendo conhecimentos
+em tecnologia, programação e soluções digitais.
+</p>
+<br>
+<p>
+Sou uma pessoa criativa, dedicada e sempre em busca
+de aprender novas habilidades. Tenho grande interesse
+pela área de tecnologia e gosto de participar de projetos
+que me permitam crescer profissionalmente.
+</p>
+</div>
+
+<div class="card habilidades" id="habilidades">
+<h2>Habilidades</h2>
+<br>
+<ul>
+<li>Carismático</li>
+<li>Simpático</li>
+<li>Engraçado</li>
+<li>Videogames</li>
+<li>Basquete</li>
+<li>Organização</li>
+<li>Educação</li>
+<li>Música</li>
+</ul>
+</div>
+
+<div class="card projetos" id="projetos">
+<h2>Conhecimentos</h2>
+<br>
+<ul>
+<li>Protótipos no Figma</li>
+<li>HTML e CSS</li>
+<li>Python</li>
+<li>Canva</li>
+<li>Git e GitHub</li>
+<li>Desenvolvimento Web</li>
+</ul>
+</div>
+
+</div>
+
+<div class="galeria">
+<img src="pcgamer.png" alt="">
+<img src="bateria.png" alt="">
+<img src="musica.png" alt="">
+<img src="volei.png" alt="">
+</div>
+
+<div class="tecnologias">
+<h2>Tecnologias</h2>
+<br>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+
+</div>
+
+</div>
+
+</main>
+
+<footer id="contato">
+
+<div class="contato">
+📧 ianloud10@gmail.com
+</div>
+
+<div class="contato">
+📸 @IanWelzz
+</div>
+
+<div class="contato">
+📞 (87) 98861-2023
+</div>
+
+<div class="contato">
+✈ Enviar Mensagem
+</div>
+
+</footer>
+
+</body>
+</html>
